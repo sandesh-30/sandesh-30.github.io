@@ -1,6 +1,6 @@
 ## Welcome to Sandesh's page!
 
-**<i>"People linked by destiny will always find each other."<i>**
+<b><i>"People linked by destiny will always find each other."<i><b>
 <br>
 --The Witcher
 <br>
