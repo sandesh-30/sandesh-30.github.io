@@ -10,7 +10,7 @@ Want to Connect?
 <a href="https://twitter.com/SandeshGaikwad_">
   <img align="left" alt="Sandesh Gaikwad| Twitter" width="22px" src="https://github.com/sandesh-30/sandesh-30/blob/main/5296514_bird_tweet_twitter_twitter%20logo_icon%20(1).png?raw=true" />
 </a>
-<a href="https://www.linkedin.com/in/sandeshgaikwad97">
+<a href="https://www.linkedin.com/in/sandeshgaikwad-iitb">
   <img align="left" alt="Linkedin" width="22px" src="https://github.com/sandesh-30/sandesh-30/blob/main/4102586_applications_linkedin_social_social%20media_icon.png?raw=true" />
 </a>
 <a href="https://www.instagram.com/hear._me_roar/">
