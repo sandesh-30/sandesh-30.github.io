@@ -1,11 +1,12 @@
-## Welcome to Sandesh's Page
+## Welcome to Sandesh's page!
 
-"People linked by destiny will always find each other."
+**<i>"People linked by destiny will always find each other."<i>**
+<br>
 --The Witcher
+<br>
 
-Want to Connect? Can found me Here (Click to go to my profile) 
+Want to Connect?
 
-<br/>
 <a href="https://twitter.com/SandeshGaikwad_">
   <img align="left" alt="Sandesh Gaikwad| Twitter" width="22px" src="https://github.com/sandesh-30/sandesh-30/blob/main/5296514_bird_tweet_twitter_twitter%20logo_icon%20(1).png?raw=true" />
 </a>
@@ -19,6 +20,7 @@ Want to Connect? Can found me Here (Click to go to my profile)
   <img align="left" alt=" HackerRank" width="22px" src="https://github.com/sandesh-30/sandesh-30/blob/main/4373234_hackerrank_logo_logos_icon.png?raw=true" />
 </a>
 
-
+<br/>
+<br>
 with ❤️ - The last Uchiha
 
