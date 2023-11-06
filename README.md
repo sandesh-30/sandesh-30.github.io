@@ -1,6 +1,9 @@
 ## Welcome to Sandesh's Page
 
-**More content coming soon................................**
+** People linked by destiny will always find each other.
+--The Witcher
+
+**More content coming soon**
 
 
 with ❤️ - Sandesh
