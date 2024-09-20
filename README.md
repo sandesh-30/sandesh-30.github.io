@@ -5,9 +5,9 @@
 --The Witcher
 <br>
 
-Want to Connect?
-
 <embed src="https://sandesh-30.github.io/Sandesh_Resume_1Page.pdf" type="application/pdf" width="80%" height="600px" />
+
+Want to Connect?
 
 <a href="https://twitter.com/SandeshGaikwad_"> <img align="left" alt="Sandesh Gaikwad| Twitter" width="22px" src="https://github.com/sandesh-30/sandesh-30/blob/main/5296514_bird_tweet_twitter_twitter%20logo_icon%20(1).png?raw=true" /> 
 </a> 
