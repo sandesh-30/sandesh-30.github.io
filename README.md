@@ -5,12 +5,12 @@
 
 <hr>
 
-<h3>Want to Connect?</h3>
-
 <!-- Embedded Resume with appropriate size -->
 <embed src="https://sandesh-30.github.io/resume_2024.pdf" type="application/pdf" width="100%" height="700px" />
 
 <hr>
+
+<h3>Want to Connect?</h3>
 
 <!-- Social Media Links -->
 <div style="margin-top: 20px;">
