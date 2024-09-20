@@ -1,4 +1,4 @@
-## Welcome to Sandesh's Page!
+## Hey there, Welcome to my page!
 
 <p style="font-size:1.2em;"><b><i>"People linked by destiny will always find each other."</i></b></p>
 <p style="text-align:right;">-- The Witcher</p>
@@ -36,4 +36,4 @@
 <hr>
 
 <!-- Signature -->
-<p style="text-align:center;">with ❤️ - The Last Uchiha</p>
+<p style="text-align:center;">with ❤️ - Sandesh </p>
