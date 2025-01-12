@@ -67,7 +67,7 @@ body {
   height: 100%;
   object-fit: cover; /* Changed to cover for better image handling */
   opacity: 0.6;
-  z-index: 1; /* Added z-index to place behind profile */
+  z-index: 1;
 }
 
 
@@ -78,7 +78,7 @@ body {
   margin-bottom: 10px; /* Half of the profile image height to make it overlap */
   align-items: center;
   text-align: center;
-  z-index: 2; /* Added z-index to place above banner image */
+  z-index: 2;
 }
 
 .profile-img {
