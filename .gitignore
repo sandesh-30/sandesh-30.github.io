@@ -8,5 +8,4 @@
 __pycache__/
 *.py[cod]
 
-# Ignore VS Code settings (optional, if you don't want to track these files)
 .vscode/
