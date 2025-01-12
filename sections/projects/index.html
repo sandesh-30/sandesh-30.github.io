@@ -3,15 +3,232 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
-    <link rel="stylesheet" href="../../css/style.css">
+    <title>Research Experience & Publications</title>
+    <style>
+        :root {
+            --primary-color: #070a12;
+            --secondary-color: #1e40af;
+            --background-color: #f8fafc;
+            --card-background: #ffffff;
+            --text-color: #1f2937;
+            --border-radius: 8px;
+            --spacing: 1.5rem;
+            --text-light: #666;
+            --shadow: 0 2px 4px rgba(0,0,0,0.1);
+            --transition: all 0.2s ease-in-out;
+}
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+            margin: 0;
+            padding: 2rem;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .experience-grid {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(200px, 1fr)) ;
+            gap: var(--spacing);
+            width: 100%;
+        }
+
+        .item-card {
+            background: var(--card-background);
+            border-radius: var(--border-radius);
+            padding: var(--spacing);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            transition: transform 0.2s ease-in-out;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .item-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .item-card h3 {
+            color: var(--primary-color);
+            margin-top: 0;
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+        }
+
+        .meta-info {
+            font-size: 0.9rem;
+            color: #64748b;
+            margin-bottom: 1rem;
+        }
+
+        .tag {
+            display: inline-block;
+            background: #e2e8f0;
+            padding: 0.25rem 0.75rem;
+            border-radius: 999px;
+            font-size: 0.875rem;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+            color: #475569;
+        }
+
+        .button {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.5rem 1rem;
+            background-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: var(--border-radius);
+            font-weight: 500;
+            transition: background-color 0.2s;
+            margin-top: 1rem;
+        }
+
+        .button:hover {
+            background-color: var(--secondary-color);
+        }
+
+        .icon {
+            margin-right: 0.5rem;
+            width: 1.25rem;
+            height: 1.25rem;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+            
+            .experience-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+    </style>
 </head>
 <body>
     <div class="content">
-        <div class="item-card">
-            <h3>Project Name</h3>
-            <p>Description of the project, technologies used, and your role.</p>
-            <a href="#" class="button">View Project</a>
+        <div class="experience-grid">
+            <!-- Publication 1 -->
+            <div class="item-card">
+                <h3>Competition Over Time-lines Using Data-based Analysis</h3>
+                <div class="meta-info">
+                    <span class="tag">Master's thesis</span>
+                    <span class="tag">IIT Bombay</span>
+                    <span class="tag">Mumbai, India</span>
+                    <span class="tag">AI/ML, Branching Process, Monte-Carlo Simulations, MATLAB</span>
+                </div>
+                <p>
+                    <span class="highlight">Objective:</span>To derive a mathematical model describing content propagation processes over Online Social Networks
+                </p>
+                <p>Explored variants of branching processes used to develop a mathematical model describing viral marketing phenomenon</p>
+                <p>Analyzed twitter datasets by SNAP to determine crucial design parameters of the developed mathematical model </p>
+                <p>Orchestrated Monte-Carlo Simulations on network datasets to evaluate the performance of the designed mathematical model</p>
+            </div>
+
+            <!-- Publication 2 -->
+            <div class="item-card">
+                <h3>Vehicle Detection for Self-driving Cars</h3>
+                <div class="meta-info">
+                    <span class="tag">IIT Bombay</span>
+                    <span class="tag">Course Project: Introduction to ML</span>
+                    <span class="tag">Python, AI, ML, OpenCV, Scikit-learn</span>
+                </div>
+                <p>Studied and applied Histogram of Oriented Gradients (HOG) feature descriptor for feature engineering </p>
+                <p>Reduced total number of features in an image from 12288 to 1764 (by 85.67%) using Histogram of Oriented Gradients feature descriptor</p>
+                <p>Trained and compared different ML algorithms like SVC, Random Forest, Perceptron, and Adaboost classifier</p>
+                <p>Attained ROC-AUC score of 0.9951 for SVC and obtained 8/9 correct classification on the test image set</p>
+                <a href="https://github.com/sandesh-30/Vehicle-detection" target="_blank" class="button">
+                    <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"></path>
+                    </svg>
+                    View Project
+                </a>
+            </div>
+
+            <div class="item-card">
+                <h3>Credit Risk Model</h3>
+                <div class="meta-info">
+                    <span class="tag">Self Project</span>
+                    <span class="tag">AI/ML, Credit Risk, Logistic Regression</span>
+                </div>
+                <p>Applied logistic regression model to predict the Probability of Default (PD) in consumer loans to assess the risk involved</p>
+                <p>Analyzed the relative importance of features using the weight of evidence (WOE) and information value (IV)</p>
+                <p>Attained AUC of 0.86 and Precision-Recall AUC of 0.97 on test data by using regression model for binary classification</p>
+                <a href="https://github.com/sandesh-30/Credit_risk_model" target="_blank" class="button">
+                    <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"></path>
+                    </svg>
+                    View Project
+                </a>
+            </div>
+
+            <div class="item-card">
+                <h3>Covid-19 Detection Using Convolutional Neural Network (CNN)</h3>
+                <div class="meta-info">
+                    <span class="tag">Self Project</span>
+                    <span class="tag">AI/ML, CNN , OpenCV</span>
+                </div>
+                <p>Developed Convolutional Neural Network (CNN) based approach for binary classification of Covid-19 patients through chest X-rays</p>
+                <p>Trained the 9 layered CNN model on 7000+ X-rays and achieved an accuracy of 96.13% and ROC-AUC score of 0.95 on test data</p>
+                <a href="https://github.com/sandesh-30/Covid19_Detection_by_CNN" target="_blank" class="button">
+                    <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"></path>
+                    </svg>
+                    View Project
+                </a>
+            </div>
+
+            <div class="item-card">
+                <h3>Airline Crew Scheduling</h3>
+                <div class="meta-info">
+                    <span class="tag">Course Project: Integer Programming-Theory and Computation</span>
+                    <span class="tag">IIT Bombay</span>
+                    <span class="tag">Operations Research, Column Generation</span>
+                </div>
+                <p>Reviewed the Column Generation method for solving  the Large Scale Integer programming problems</p>
+                <p>Modelled the personalized crew assignment problem using set partitioning and set covering formulation</p>
+                <a href="https://github.com/sandesh-30/Airline_Crew_Scheduling" target="_blank" class="button">
+                    <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"></path>
+                    </svg>
+                    View Project
+                </a>
+            </div>
+
+            <div class="item-card">
+                <h3>Forecasting the Covid-19 Recession And Recovery : Lessons From the Financial Crisis</h3>
+                <div class="meta-info">
+                    <span class="tag">Course Project: Business Forecasting</span>
+                    <span class="tag">IIT Bombay</span>
+                    <span class="tag">AI/ML, Forecasting, ARIMA, ARMA, Prophet</span>
+                </div>
+
+                <p>Performed exploratory data analysis on IPI data collected from RBI's Data Warehouse for 2006 -2010 and  2016-2020</p>
+                <p>Implemented Holt-Winter, ARIMA, ARMA and Prophet models to forecast the financial recovery after the first wave </p>
+                <p>Reduced MAPE to 4 percent when testing data from the 2008 recession and used the same model for COVID 19</p>
+            </div>
+            
+            <div class="item-card">
+                <h3>Global Supply Chain with Transfer Pricing</h3>
+                <div class="meta-info">
+                    <span class="tag">Course Project: Quantitative Models in Supply Chain  Management </span>
+                    <span class="tag">IIT Bombay</span>
+                    <span class="tag">Operations Research,</span>
+                </div>
+
+                <p>Optimized multi-echelon supply chain spanning five countries for maximizing net profit by varying the transfer price</p>
+                <p>Performed sensitivity analysis to observe effects of tax rates and transportation cost allocation on the optimal solution</p>
+            </div>
         </div>
     </div>
 </body>
