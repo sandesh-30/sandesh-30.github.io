@@ -27,7 +27,7 @@ You can view the portfolio live at: [https://sandesh-30.github.io](https://sande
    git clone https://github.com/sandesh-30/sandesh-30.github.io.git
    ```
 
-2. cd your-repo-name
+2. cd sandesh-30.github.io
 
 3. Open index.html in your browser.
 
