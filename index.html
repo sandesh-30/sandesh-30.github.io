@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="banner">
+        <div class="profile">
+            <img src="src/images/profile.jpeg" alt="Profile" class="profile-img">
+        </div>
+    </div>
+
+    <div class="tabs">
+        <a href="sections/about" class="tab active" data-section="about">About Me</a>
+        <a href="sections/experience" class="tab" data-section="experience">Work Experience</a>
+        <a href="sections/education" class="tab" data-section="education">Education</a>
+        <a href="sections/projects" class="tab" data-section="projects">Projects</a>
+        <a href="sections/publications" class="tab" data-section="publications">Patents & Publications</a>
+        <a href="sections/resume" class="tab" data-section="resume">Resume</a>
+    </div>
+
+    <iframe id="content-frame" src="sections/about" title="about"></iframe>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

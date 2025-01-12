@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Experience & Publications</title>
+    <style>
+        :root {
+            --primary-color: #070a12;
+            --secondary-color: #1e40af;
+            --background-color: #f8fafc;
+            --card-background: #ffffff;
+            --text-color: #1f2937;
+            --border-radius: 8px;
+            --spacing: 1.5rem;
+            --text-light: #666;
+            --shadow: 0 2px 4px rgba(0,0,0,0.1);
+            --transition: all 0.2s ease-in-out;
+}
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+            margin: 0;
+            padding: 2rem;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .experience-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: var(--spacing);
+        }
+
+        .item-card {
+            background: var(--card-background);
+            border-radius: var(--border-radius);
+            padding: var(--spacing);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .item-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .item-card h3 {
+            color: var(--primary-color);
+            margin-top: 0;
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+        }
+
+        .meta-info {
+            font-size: 0.9rem;
+            color: #64748b;
+            margin-bottom: 1rem;
+        }
+
+        .tag {
+            display: inline-block;
+            background: #e2e8f0;
+            padding: 0.25rem 0.75rem;
+            border-radius: 999px;
+            font-size: 0.875rem;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+            color: #475569;
+        }
+
+        .button {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.5rem 1rem;
+            background-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: var(--border-radius);
+            font-weight: 500;
+            transition: background-color 0.2s;
+            margin-top: 1rem;
+        }
+
+        .button:hover {
+            background-color: var(--secondary-color);
+        }
+
+        .icon {
+            margin-right: 0.5rem;
+            width: 1.25rem;
+            height: 1.25rem;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="experience-grid">
+            <!-- Publication 1 -->
+            <div class="item-card">
+                <h3>A Hybrid Bayesian-Genetic Algorithm Based Hyperparameter Optimization of a LSTM Network for Demand Forecasting of Retail Products</h3>
+                <div class="meta-info">
+                    <span class="tag">Published 2023</span>
+                    <span class="tag">ECTA-2023 Conference</span>
+                    <span class="tag">Rome, Italy</span>
+                    <span class="tag">AI/ML, Operations Research</span>
+                    <span class="tag">DOI: 10.5220/0012182900003595</span>
+                </div>
+                <p>This study proposes a hybrid approach to determine the optimal set of hyperparameters of an LSTM model using
+                    Bayesian optimization and genetic algorithm.
+                   </p>
+                <a href="https://www.scitepress.org/Link.aspx?doi=10.5220/0012182900003595" target="_blank" class="button">
+                    <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                    </svg>
+                    Read Paper
+                </a>
+            </div>
+
+            <!-- Publication 2 -->
+            <div class="item-card">
+                <h3>A Novel Approach to Allocation and Scheduling of Rail Rakes and Wagon Management for Transportation of Petroleum Products</h3>
+                <div class="meta-info">
+                    <span class="tag">Presented ORSI-2023 & ICBAI-2023</span>
+                    <span class="tag">Under Review</span>
+                    <span class="tag">Operations Research</span>
+                </div>
+                <p>
+                    Presented at the joint event: 56th Annual Convention of ORSI (2023-ORSI) 
+                    and 10th International Conference on Business Analytics and Intelligence (2023-ICBAI),
+                    scheduled during December 18-20, 2023 at J.N. Tata Auditorium, IISc, Bangalore 560012.
+                    The manuscript is under review with International Journal of Advanced Operations Management.
+                </p>
+                <!-- <a href="#" class="button">
+                    <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"></path>
+                    </svg>
+                    View Presentation
+                </a> -->
+            </div>
+
+            <!-- Publication 3 -->
+            <div class="item-card">
+                <h3>A Hybrid Strategy to Hyperparameter Optimization of an E-Commerce Customer Churn Prediction Model</h3>
+                <div class="meta-info">
+                    <span class="tag">ORSI-2023 & ICBAI-2023</span>
+                    <span class="tag">Co-author</span>
+                    <span class="tag">AI/ML, Operations Research</span>
+                </div>
+                <p>
+                    Co-authored a paper presented at the joint event: the 56th Annual Convention of ORSI (2023-ORSI) 
+                    and the 10th International Conference on Business Analytics and Intelligence (2023-ICBAI), 
+                    held from December 18-20, 2023, at J.N. Tata Auditorium, IISc, Bangalore, 560012.
+                </p>
+            </div>
+
+            <!-- Patent -->
+            <div class="item-card">
+                <h3>Method and System for Optimized Human Resource Planning in Warehouses</h3>
+                <div class="meta-info">
+                    <span class="tag">Patent Applied</span>
+                    <span class="tag">2023</span>
+                    <span class="tag">India</span>
+                    <span class="tag">Operations Research</span>
+                </div>
+                <p>Patent application filed in India for an innovative system that optimizes workforce planning and resource allocation in warehouse operations.</p>
+                <!-- <a href="#" class="button">
+                    <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                    </svg>
+                    View Patent Details
+                </a> -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
